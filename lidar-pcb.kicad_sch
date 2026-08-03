@@ -1925,30 +1925,6 @@
 			)
 		)
 	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 198.12 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76d1a099-1fb8-40f5-84b6-ee73c45e7e2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.1528 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DRDY"
 		(shape output)
 		(at 203.2 116.84 0)
@@ -2225,6 +2201,85 @@
 			(project "lidar-pcb"
 				(path "/b02573ee-c4e0-4613-97b5-1c6fe79aa50e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "390bf799-22ca-4c88-bc54-2dafee0e8cfb")
+		(property "Reference" "#PWR08"
+			(at 194.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.93 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "704c8d50-7d18-4e1a-b53a-37fb44e1b695")
+		)
+		(instances
+			(project "lidar-pcb"
+				(path "/b02573ee-c4e0-4613-97b5-1c6fe79aa50e"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2847,7 +2902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
