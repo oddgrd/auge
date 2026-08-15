@@ -2583,7 +2583,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4537c422-cbce-40ac-97ab-93854c3988a4")
 		(property "Reference" "R3"
 			(at 133.604 80.01 0)
@@ -2630,6 +2630,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 137.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2778,7 +2789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=SM06B-GHS-TB"
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2790,6 +2801,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C133065"
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2914,7 +2936,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6153b08e-3b05-4c50-9f3d-62382bc3b634")
 		(property "Reference" "R1"
 			(at 127.254 80.01 0)
@@ -2961,6 +2983,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 130.81 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3109,7 +3142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3121,6 +3154,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3267,7 +3311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603YG/C2289"
 			(at 167.64 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -3290,6 +3334,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2289"
 			(at 167.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3371,6 +3426,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3531,6 +3597,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3752,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663"
 			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3764,6 +3841,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3833,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3845,6 +3933,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21189"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4016,6 +4115,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C3178291"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e826dcd-34b5-428a-b92b-8125841f444c")
 		)
@@ -4105,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4117,6 +4227,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1779"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4186,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4198,6 +4319,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 144.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21189"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4245,7 +4377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 175.006 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 173.99 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4279,6 +4411,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 173.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C99782"
 			(at 173.99 74.93 0)
 			(hide yes)
 			(show_name no)
