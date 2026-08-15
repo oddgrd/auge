@@ -257,7 +257,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -543,6 +543,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -627,6 +628,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -665,6 +672,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -677,7 +692,7 @@
         "uuid": "b02573ee-c4e0-4613-97b5-1c6fe79aa50e"
       }
     ],
-    "used_designators": "H1,J1-2,R1-3,D1,C1-2,#PWR1-8,U1-2",
+    "used_designators": "#FLG1-2,H1,J1-2,R1-7,D1,C1-3,#PWR1-9,U1-2",
     "variants": []
   },
   "sheets": [
