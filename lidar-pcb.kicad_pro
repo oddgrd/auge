@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.508,
-          "width": 0.508
+          "drill": 1.152,
+          "height": 1.152,
+          "width": 1.152
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.28,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|164925027|84099946|0590591b-fc1e-4bd5-a65c-7721ea236bcb|2ed6fdc9-8723-4db5-b452-47df62fa04b3|F.Cu",
+          "Single spoke is fine here, it's thick and the current is low"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -162,7 +167,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.125,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

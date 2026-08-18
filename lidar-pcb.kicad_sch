@@ -2124,7 +2124,7 @@
 			)
 		)
 	)
-	(global_label "DRDY"
+	(global_label "XSHUT"
 		(shape input)
 		(at 149.86 72.39 270)
 		(fields_autoplaced yes)
@@ -2134,9 +2134,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1fab993c-3f35-4d23-8fe4-e0ffa29aecf2")
+		(uuid "13bf094e-798a-4b7c-8943-f2ed01431e33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 80.2738 90)
+			(at 149.86 81.4228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2292,7 @@
 			)
 		)
 	)
-	(global_label "XSHUT"
+	(global_label "DRDY"
 		(shape input)
 		(at 152.4 72.39 270)
 		(fields_autoplaced yes)
@@ -2302,9 +2302,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ee6a1656-186f-482e-b722-d00cdcb7b5d8")
+		(uuid "e67e3eee-f8dd-4382-bd53-a37728a3a0e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 81.4228 90)
+			(at 152.4 80.2738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2811,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C133065"
+		(property "LCSC Part #" "C51940119"
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3899,8 +3899,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 150.368 82.804 0)
+		(property "Value" "100"
+			(at 152.4 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3921,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
+		(property "Datasheet" ""
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3943,7 +3943,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21189"
+		(property "LCSC Part #" "C22775"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4193,7 +4193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 10V"
+		(property "Value" "4.7uF"
 			(at 118.364 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,8 +4285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 141.732 83.058 0)
+		(property "Value" "100"
+			(at 139.954 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4329,7 +4329,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21189"
+		(property "LCSC Part #" "C22775"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
