@@ -3,3 +3,7 @@ _autosave*
 *.lck
 *.bak
 production
+
+# Ignore third party assets.
+lib/VL53L4CDV0DH_1.kicad_sym
+lib/VL53L3 MODULE ASSEMBLY.step

@@ -1,7 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "lidar-library") (type "KiCad") (uri "${KIPRJMOD}/lidar-library.pretty") (options "") (descr ""))
-	(lib (name "LGA_12") (type "KiCad") (uri "${KIPRJMOD}/lib/LGA_12.pretty") (options "") (descr ""))
 	(lib (name "VL53L4CDV0DH_1") (type "KiCad") (uri "${KIPRJMOD}/lib/VL53L4CDV0DH_1.pretty") (options "") (descr ""))
 	(lib (name "CG-VL53L0X") (type "KiCad") (uri "${KIPRJMOD}/lib/CG-VL53L0X.pretty") (options "") (descr ""))
 )
